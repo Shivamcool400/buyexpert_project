@@ -1,0 +1,111 @@
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+  @font-face {
+    font-family: 'SamsungOne 400';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SamsungOne 400'), url('SamsungOne-400.woff') format('woff');
+    font-display: swap;
+    }
+    
+
+    @font-face {
+    font-family: 'SamsungOne 700';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SamsungOne 700'), url('SamsungOne-700.woff') format('woff');
+    font-display: swap;
+    }
+    
+
+    @font-face {
+    font-family: 'Samsung Sharp Sans Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Samsung Sharp Sans Bold'), url('SamsungSharpSans-Bold.woff') format('woff');
+    font-display: swap;
+    }
+ @font-face {
+    font-family: 'Samsung Sharp Sans Regular Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Samsung Sharp Sans Regular Regular'), url('./SamsungSharpSansRegular-Regular.woff') format('woff');
+    font-display: swap;
+    }
+
+ 
+
+    @font-face {
+    font-family: 'SamsungSharpSans-Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SamsungSharpSans-Bold'), url('./samsung_s_sharp_by_629lyric-d8y77l9.woff') format('woff');
+    font-display: swap;
+    }
+
+
+
+
+ .back {
+        background-image: linear-gradient(to top right,#361fa7 50%,#3c27a1 50%);
+        font-family:'SamsungSharpSans-Bold' ;
+        color: white;
+    }
+    .msg-heading {
+        /* margin-top: 10%; */
+ 
+        color:white;
+        display: block;
+        text-align: center;
+     font-family: SamsungSharpSans-Bold  ;
+     font-size: 38px;
+     padding-top: 5%;
+     padding-bottom: 4%;
+    }
+    button.find-btn {
+        background-color:black;
+        color: white;
+        display: block;
+        margin:auto;
+        width: 200px;
+        height: 48px;
+       padding: 5px 28px 7px;
+       border-radius: 28px;
+       margin-top: 10px;
+       text-align: center;
+        }
+
+       
+
+            .msg-3 {
+                color:white;
+              display: block;
+              text-align: center;
+              font-family: 'SamsungOne 400';
+              font-size: 18px;
+              font-weight: 400;
+              padding-right: 8%;
+              padding-left: 8%;
+              
+              }
+    .heading-2 {
+                display: block;
+                text-align: center;
+             font-family: SamsungSharpSans-Bold  ;
+             font-size: 38px;
+              }
+
+    .container .shift {
+        margin-top: 0;
+    }
+
+    .heading {
+        font-size: 25px;
+    }
+
+
+    .image {
+        margin-bottom: 3%;
+    }

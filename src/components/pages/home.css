@@ -1,0 +1,315 @@
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.homehead {
+    margin-top: 90px;
+    margin-bottom: 30px;
+    color: black;
+    font-family: SamsungSharpSans-Bold,serif,sans-serif  ;
+    font-size: 30px;
+}
+
+
+.body-content {
+    display: block;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.content-head {
+    font-family: SamsungSharpSans-Bold,serif,sans-serif  ;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.para {
+    font-family: 'SamsungOne 400',serif,sans-serif;
+    font-size: 1.3rem;
+    width: 90%;
+    margin: auto;
+}
+
+.body-inner {
+    padding: 20px;
+}
+
+.ourmotivehead {
+    margin-bottom: 50px;
+}
+/*
+.carousel-inner{
+    height: 700px;
+ }
+
+ .carousel-item, .carousel-item>img {
+     height: 100% !important;
+     width:  100% !important;
+     /* border: 1px solid red; 
+ } */
+
+ .caption {
+     font-size: 2rem;
+     margin-bottom: 5%;
+     opacity: 0.8;
+ }
+
+ @media screen and (min-width: 960px) {
+    .carousel-inner{
+        height: 700px;
+     }
+    
+     .carousel-item, .carousel-item>img {
+         height: 100% !important;
+         width:  100% !important;
+
+     }
+
+     
+     
+ }
+
+ @media screen and (max-width: 960px) {
+     .caption {
+         font-size: 1.5rem;
+     }
+
+     .content-head {
+         font-size: 38px;
+     }
+     
+ }
+
+
+  @font-face {
+    font-family: 'SamsungOne 400';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SamsungOne 400'), url('SamsungOne-400.woff') format('woff');
+    font-display: swap;
+    }
+    
+
+    @font-face {
+    font-family: 'SamsungOne 700';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SamsungOne 700'), url('SamsungOne-700.woff') format('woff');
+    font-display: swap;
+    }
+    
+
+    @font-face {
+    font-family: 'Samsung Sharp Sans Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Samsung Sharp Sans Bold'), url('SamsungSharpSans-Bold.woff') format('woff');
+    font-display: swap;
+    }
+ @font-face {
+    font-family: 'Samsung Sharp Sans Regular Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Samsung Sharp Sans Regular Regular'), url('./SamsungSharpSansRegular-Regular.woff') format('woff');
+    font-display: swap;
+    }
+
+ 
+
+    @font-face {
+    font-family: 'SamsungSharpSans-Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SamsungSharpSans-Bold'), url('./samsung_s_sharp_by_629lyric-d8y77l9.woff') format('woff');
+    font-display: swap;
+    }
+
+
+
+
+img.rounded.mx-auto.d-block.img-fluid.headshot.mt-5 {
+    padding-bottom: 0;
+}
+
+.arrangement {
+    display: block;
+    margin: auto;
+}
+
+.msg-1 {
+      color:darkgrey;
+    display: block;
+    text-align: center;
+    font-family: 'SamsungOne 700';
+    font-size: 18px;
+    font-weight: 400;
+    /*text-decoration: underline;*/
+    
+    
+}
+.msg {
+    
+   /*margin-top: 10%; */
+    color:black;
+    display: block;
+    text-align: center;
+    font-family: 'SamsungOne 700';
+    font-size: 18px;
+    
+    
+   
+ }
+
+.blockquote {
+    color:black;
+    display: block;
+    text-align: center;
+    font-family: 'SamsungOne 400';
+    font-size: 18px;
+    
+    
+}
+.text_heading {
+    margin-top: 10%; 
+    color:black;
+    display: block;
+    text-align: center;
+ font-family: SamsungSharpSans-Bold  ;
+    
+   font-size: 38px;
+}
+.card.m-3 {
+    background:#FFFAFA;
+    
+}
+
+.card-title {
+    font-family:SamsungSharpSans-Bold   ;
+    
+   font-size: 20px;
+}
+
+p.card-text.text-center {
+    font-family: 'SamsungOne 700';
+}
+
+.abc :hover {
+    color: darkgrey;
+    text-decoration: underline;
+}
+
+
+.ques {
+ color: aliceblue;
+text-align: center;
+    }
+.wrapper-btn {
+margin-top: 20px;
+}
+
+button.mainbtn {
+    /* background: #1888ffb7; */
+    background-color: rgba(0, 0, 0, 0.767);
+    width: 60%;
+    color: white;
+    display: block;
+    margin:auto;
+    border-radius: 50px;
+    }
+   /*  necessary as a underline apperars */
+    a:hover, a:visited, a:link, a:active
+    {
+        text-decoration: none;
+    }
+
+button.mainbtn:hover {
+    background: rgba(255, 192, 203, 0.1);
+    border: 2px solid #1888ff;
+    color: black;
+    
+}
+
+
+.search_icon {
+    float: right;
+    padding-top: 5px;
+}
+
+
+
+@media only screen and (max-width: 430px) {
+  .msg {
+      font-size: 25px;
+  }
+
+  .content-head {
+      font-size: 22px;
+  }
+    
+    .ques {
+        font-size: 35px;
+    }
+    .msg-small {
+        margin-top: 1%;
+    }
+    .text_heading {
+    margin-top: 10%;
+    font-family: SamsungSharpSans-Bold;
+    font-size: 20px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,183 @@
+.body {
+    margin-top: 70px;
+}
+
+.head {
+    text-align: center;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 1rem auto;
+    width: 70%;
+    display: block;
+  }
+
+
+.box2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+legend {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.input {
+    margin-bottom: 20px;
+}
+
+.left {
+    width: 50%;
+}
+
+.btnmessage {
+    background-color: rgba(255, 0, 0, 0.562);
+    color: white;
+    margin-top: 25px;
+    border-radius: 5px;
+}
+
+.btnmessage:hover {
+    color: white;
+    background-color: rgba(255, 0, 0, 0.662);
+}
+
+.right {
+    margin-left: 20%;
+}
+
+
+.emailicon {
+    margin-top: 85px;
+    padding: 10px;
+}
+
+i {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.589)
+}
+
+a:hover {
+    color: rgba(255, 0, 0, 0.671);
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 800px) and (min-width: 550px) {
+    .box2 {
+        display: block;
+        margin-top: 50px;
+    }
+
+    .left {
+        margin: auto;
+        width: 75%;
+    }
+
+    .right {
+        margin: auto;
+        width: 50%;
+    }
+
+    .emailicon {
+        padding: 10px;
+    }
+    
+    i {
+        margin-bottom: 10px;
+    }
+
+    .email {
+        display: block;
+        text-align: center;
+    }
+
+    em {
+        display: block;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 549px) {
+    .box2 {
+        display: block;
+        margin-top: 50px;
+    }
+
+    .left {
+        margin: auto;
+        width: 75%;
+    }
+
+    .right {
+        margin: auto;
+        width: 70%;
+    }
+
+    .emailicon {
+        padding: 10px;
+    }
+    
+    i {
+        margin-bottom: 10px;
+    }
+
+    .email {
+        display: block;
+        text-align: center;
+    }
+
+    em {
+        display: block;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 380px) {
+    .box2 {
+        display: block;
+        margin-top: 50px;
+    }
+
+    .left {
+        margin: auto;
+        width: 75%;
+    }
+
+    .right {
+        margin: auto;
+        width: 85%;
+    }
+
+    .emailicon {
+        padding: 10px;
+    }
+    
+    i {
+        margin-bottom: 10px;
+    }
+
+    .email {
+        display: block;
+        text-align: center;
+    }
+
+    em {
+        display: block;
+        text-align: center;
+    }
+
+}
+
+
+
